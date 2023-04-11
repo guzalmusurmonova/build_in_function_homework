@@ -1,3 +1,4 @@
+from math import pow
 def main(n, x):
     """Integer type variables 'n' and 'x' are given. Return the value of the expression in README.md file.
     https://github.com/codeschool43/Build_in_function_homework#build_func05
@@ -9,4 +10,5 @@ def main(n, x):
     Returns:
         int: the value of the expression
     """
-    return
+    return (pow(x, n)+pow(n, x))
+print(main(3, 6))
