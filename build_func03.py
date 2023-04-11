@@ -10,4 +10,4 @@ def main(n):
         float: the value of the expression
     """
     return 3*(pow((n+1), 2))
-print(main(3.5))
+print("answer : "main(4))
